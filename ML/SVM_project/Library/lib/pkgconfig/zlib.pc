@@ -1,0 +1,13 @@
+prefix=D:/adym/NCKH/ML/SVM_project/Library
+exec_prefix=D:/adym/NCKH/ML/SVM_project/Library
+libdir=D:/adym/NCKH/ML/SVM_project/Library/lib
+sharedlibdir=D:/adym/NCKH/ML/SVM_project/Library/lib
+includedir=D:/adym/NCKH/ML/SVM_project/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
